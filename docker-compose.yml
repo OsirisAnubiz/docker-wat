@@ -1,0 +1,5 @@
+services:
+  node-test:
+    build: .
+    volumes:
+      - .:/app
